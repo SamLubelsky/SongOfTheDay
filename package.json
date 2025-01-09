@@ -4,8 +4,7 @@
   "main": "tailwind.config.js",
   "scripts": {
     "build": "npx tailwindcss -i ./static/src/input.css -o ./static/dist/css/output.css",
-    "watch": "npx tailwindcss -i ./static/src/input.css -o ./static/dist/css/output.css --watch",
-    "heroku-postbuild": "npm run build"
+    "watch": "npx tailwindcss -i ./static/src/input.css -o ./static/dist/css/output.css --watch"
   },
   "author": "",
   "license": "ISC",
