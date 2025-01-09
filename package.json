@@ -1,0 +1,12 @@
+{
+  "name": "songoftheday",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./static/src/input.css -o ./static/dist/css/output.css",
+    "watch": "npx tailwindcss -i ./static/src/input.css -o ./static/dist/css/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
