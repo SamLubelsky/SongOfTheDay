@@ -41,6 +41,7 @@ def hello_world():
         last_date_checked = date.today()
     return render_template('index.html', 
     song_name = song_data['song_name'], 
+    release_year = song_data['date_released'][:4],
     date_released = song_data['date_released'], 
     album_name = song_data['album_name'], 
     band_name = song_data['band_name'], 
